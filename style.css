@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: grey;
 }
 /*navbar*/
 /*topic*/
@@ -14,9 +14,8 @@ body{
   text-align: center;
 }
 .overview {
-  background-color: skyblue;
+  background-color: lightgrey;
   padding: 20px;
-  border: solid grey;
   font-size: 30px;
   font-family: 'Comfortaa', cursive;
 }
