@@ -2,6 +2,12 @@ body{
     background-color: lightblue;
 }
 /*navbar*/
+/*topic*/
+.text-center-animation {
+  font-size: 200px;
+  margin-top: 260px;
+  margin-bottom: 400px;
+}
 /*overview*/
 .text-center {
   color: white;
