@@ -1,6 +1,13 @@
 body{
     background-color: grey;
 }
+.section-name {
+  text-align: center;
+  background-color: rgba(224, 221, 221, 0.54);
+  border: solid transparent;
+  border-radius: 25px;
+  
+}
 /*navbar*/
 /*topic*/
 .text-center-animation {
