@@ -1,11 +1,13 @@
 body{
-    background-color: grey;
+  background-color: grey;
+    
 }
 .section-name {
   text-align: center;
   background-color: rgba(224, 221, 221, 0.54);
   border: solid transparent;
   border-radius: 25px;
+  
   
 }
 /*navbar*/
@@ -27,4 +29,26 @@ body{
   font-family: 'Comfortaa', cursive;
   border: solid transparent;
   border-radius: 50px;
+}
+/*Context*/
+.section-name-context {
+  margin-top: 100px;
+  text-align: center;
+  background-color: rgba(224, 221, 221, 0.54);
+  border: solid transparent;
+  border-radius: 25px;
+}
+.context {
+  background-color: lightgrey;
+  padding: 50px;
+  font-family: 'Comfortaa', cursive;
+  border: solid transparent;
+  border-radius: 50px;
+  margin-top: 20px;
+  
+}
+.text-left-context {
+  color: white;
+  font-size: 20px;
+  text-align: left;
 }
