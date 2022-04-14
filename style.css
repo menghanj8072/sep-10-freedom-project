@@ -14,8 +14,9 @@ body{
 /*topic*/
 .text-center-animation {
   font-size: 200px;
-  margin-top: 260px;
-  margin-bottom: 400px;
+  margin-top: 280px;
+  margin-bottom: 460px;
+  font-family: 'Black Ops One', cursive;
 }
 /*overview*/
 .section-name-overview {
@@ -58,4 +59,14 @@ body{
   color: white;
   font-size: 20px;
   text-align: left;
+}
+
+/*context2*/
+.context2 {
+  background-color: lightgrey;
+  font-family: 'Comfortaa', cursive;
+  border: solid transparent;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 50px;
 }
