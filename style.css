@@ -58,7 +58,6 @@ body{
 .text-left-context {
   color: white;
   font-size: 20px;
-  text-align: left;
 }
 
 /*context2*/
@@ -69,4 +68,14 @@ body{
   border-radius: 50px;
   margin-top: 20px;
   padding: 50px;
+}
+
+/*partA*/
+.col-4 {
+  background-color: lightgrey;
+  font-family: 'Comfortaa', cursive;
+  border: solid black;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 20px;
 }
