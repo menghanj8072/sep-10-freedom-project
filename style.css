@@ -10,6 +10,10 @@ body{
   border-radius: 25px;
 }*/
 
+.text-center{
+  text-align: center;
+}
+
 /*navbar*/
 /*topic*/
 .text-center-animation {
@@ -26,10 +30,7 @@ body{
   border: solid transparent;
   border-radius: 25px;
 }
-.text-center {
-  color: white;
-  text-align: center;
-}
+
 .overview {
   background-color: lightgrey;
   padding: 20px;
@@ -71,11 +72,7 @@ body{
 }
 
 /*partA*/
-.col-4 {
+.partA {
   background-color: lightgrey;
-  font-family: 'Comfortaa', cursive;
-  border: solid black;
-  border-radius: 50px;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 50px;
 }
