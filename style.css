@@ -89,3 +89,29 @@ body{
 height: 500px;
 width: 100%;
 }
+
+@media only screen and (max-width: 576px) {
+  .text-center-animation{
+    font-size: 90px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .text-center-animation{
+    font-size: 120px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .text-center-animation{
+    font-size: 150px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .text-center-animation{
+    font-size: 150px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .text-center-animation{
+    font-size: 200px;
+  }
+}
