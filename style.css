@@ -60,4 +60,15 @@ body{
 .partA {
   background-color: lightgrey;
   margin-top: 50px;
+  font-family: 'Comfortaa', cursive;
+}
+.hardware{
+  margin-top: 20px;
+  background-color: grey;
+  border: solid transparent;
+  border-radius: 25px;
+}
+#hardware p{
+  color: white;
+  font-family: 'Comfortaa', cursive;  
 }
