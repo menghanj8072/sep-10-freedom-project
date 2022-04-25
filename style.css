@@ -18,9 +18,8 @@ body{
 /*topic*/
 .text-center-animation {
   font-size: 200px;
-  margin-top: 280px;
-  margin-bottom: 460px;
   font-family: 'Black Ops One', cursive;
+  margin-top: 200px;
 }
 /*overview*/
 .section-name-overview {
