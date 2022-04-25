@@ -14,6 +14,7 @@
         <!--bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
         <style>
             /* CSS */
             
@@ -159,7 +160,21 @@
             </div>
         </div>
         
-        
+        <!--Example-->
+        <div>
+        <a-scene class="aframebox" embedded>
+            <a-camera position="0 0 3" user-height="0"></a-camera>
+                <a-entity>
+                  <a-sphere rotation="0 0 0" animation="property: rotation; to: 0 360 0; dur: 10000; easing: linear; loop: true" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg"></a-sphere>
+                </a-entity>
+                <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000">
+                    <a-sphere position="5 0 0" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/moon_1024.jpg" radius="0.5"></a-sphere>
+                </a-entity>
+                <a-assets>
+                 <a-sky color="black"></a-sky>
+                </a-assets>
+        </a-scene>
+        </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>

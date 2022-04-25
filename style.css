@@ -82,3 +82,9 @@ body{
   padding: 20px;
   margin-top: 50px;
 }
+
+/*example*/
+.aframebox{
+height: 500px;
+width: 100%;
+}
