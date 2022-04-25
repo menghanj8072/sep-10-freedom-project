@@ -32,13 +32,6 @@ body{
   border-radius: 50px;
 }
 /*Context*/
-.section-name-context {
-  margin-top: 100px;
-  text-align: center;
-  background-color: rgba(224, 221, 221, 0.54);
-  border: solid transparent;
-  border-radius: 25px;
-}
 .context {
   background-color: lightgrey;
   padding: 50px;
