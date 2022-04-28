@@ -1,5 +1,5 @@
 body{
-  background-color: darkgrey;
+  background-color: #29598c;
     
 }
 /*..
@@ -13,11 +13,15 @@ body{
 .text-center{
   text-align: center;
 }
+.text-left{
+ text-align: left;
+}
 
 /*navbar*/
 /*topic*/
+
 .text-center-animation {
-  font-size: 200px;
+  font-size: 100px;
   font-family: 'Black Ops One', cursive;
   margin-top: 200px;
   margin-bottom: 200px;
@@ -84,10 +88,14 @@ body{
   margin-top: 50px;
 }
 
-/*example*/
+/*A-frame*/
 .aframebox{
 height: 500px;
-width: 100%;
+width: 500px;
+position: absolute;
+top: 8px;
+right: 16px;
+font-size: 18px;
 }
 
 @media only screen and (max-width: 576px) {
