@@ -62,12 +62,13 @@ body{
 
 /*context2*/
 .context2 {
-  background-color: lightgrey;
   font-family: 'Comfortaa', cursive;
   border: solid transparent;
   border-radius: 50px;
   margin-top: 20px;
   padding: 50px;
+  
+  
 }
 
 /*partA*/
@@ -110,24 +111,78 @@ right: 16px;
   .text-center-animation{
     font-size: 90px;
   }
+   #img2 {
+  height: 250px;
+  width: 350px;
+   }
+   
+   li{
+    font-size: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
 }
 @media only screen and (min-width: 576px) {
   .text-center-animation{
     font-size: 120px;
   }
+  
+   #img2 {
+  height: 200px;
+  width: 400px;
+}
+
+  li{
+    font-size: 10px;
+  }
+  
+  
 }
 @media only screen and (min-width: 768px) {
   .text-center-animation{
     font-size: 150px;
+  }
+   #img2 {
+  height: 300px;
+  width: 550px;
+  }
+  li{
+    font-size: 15px;
+  }
+  .context2h1 {
+    font-size: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .text-center-animation{
     font-size: 150px;
   }
+  #img2 {
+  height: 400px;
+  width: 400px;
+}
+  li{
+    font-size: 15px;
+  }
+  .context2h1 {
+    font-size: 30px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .text-center-animation{
     font-size: 200px;
   }
+  #img2 {
+  height: 500px;
+  width: 500px;
+}
+  li{
+    font-size: 20px;
+  }
+  
 }
