@@ -59,23 +59,30 @@
         </nav>
         <!--Topic-->
         <div class="animation">
-            <div class="A-frame">
-                <a-scene class="aframebox" embedded>
-                    <a-camera position="0 0 2" user-height="0"></a-camera>
-                    <a-entity>
-                        <a-sphere rotation="0 0 0" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg"></a-sphere>
-                    </a-entity>
-                    <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000">
-                        <a-sphere position="5 0 0" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/moon_1024.jpg" radius="0.5"></a-sphere>
-                    </a-entity>
-                    <a-assets>
-                        <a-sky color="black"></a-sky>
-                    </a-assets>
-                </a-scene>
-            <div>
-                <h1 class="text-center-animation text-left">Animation</h1>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                                <h1 class="text-center-animation text-left">Animation</h1>
+                            </div>
+                        
+                    <div class="col-md-6">
+                        <a-scene class="aframebox" embedded>
+                            <a-camera position="0 0 2" user-height="0"></a-camera>
+                            <a-entity>
+                                <a-sphere rotation="0 0 0" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg"></a-sphere>
+                            </a-entity>
+                            <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000">
+                                <a-sphere position="5 0 0" src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/moon_1024.jpg" radius="0.5"></a-sphere>
+                            </a-entity>
+                            <a-assets>
+                                <a-sky color="black"></a-sky>
+                            </a-assets>
+                        </a-scene>
+                        </div>
+                    </div>
+                </div>
             </div>
-           </div>
         </div>
         
         

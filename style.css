@@ -102,14 +102,16 @@ body{
 .aframebox{
 height: 700px;
 width: 700px;
+/*
 position: absolute;
 top: 8px;
-right: 16px;
+right: 16px;*/
 }
 
 @media only screen and (max-width: 576px) {
   .text-center-animation{
-    font-size: 90px;
+    font-size: 80px;
+    text-align: center;
   }
    #img2 {
   height: 250px;
@@ -119,33 +121,36 @@ right: 16px;
    li{
     font-size: 10px;
   }
-  
-  
-  
-  
-  
+  .aframebox{
+    height: 300px;
+    width: 400px;
+  }
   
   
 }
 @media only screen and (min-width: 576px) {
   .text-center-animation{
-    font-size: 120px;
+    font-size: 100px;
+    text-align: center;
   }
   
    #img2 {
-  height: 200px;
+  height: 300px;
   width: 400px;
 }
 
   li{
     font-size: 10px;
   }
-  
+  .aframebox{
+    height: 400px;
+    width: 450px;
+  }
   
 }
 @media only screen and (min-width: 768px) {
   .text-center-animation{
-    font-size: 150px;
+    font-size: 70px;
   }
    #img2 {
   height: 300px;
@@ -157,10 +162,15 @@ right: 16px;
   .context2h1 {
     font-size: 30px;
   }
+  .aframebox{
+    margin-top: 20px;
+    height: 400px;
+    width: 350px;
+  }
 }
 @media only screen and (min-width: 992px) {
   .text-center-animation{
-    font-size: 150px;
+    font-size: 90px;
   }
   #img2 {
   height: 400px;
@@ -172,10 +182,14 @@ right: 16px;
   .context2h1 {
     font-size: 30px;
   }
+   .aframebox{
+    height: 600px;
+    width: 450px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .text-center-animation{
-    font-size: 200px;
+    font-size: 100px;
   }
   #img2 {
   height: 500px;
@@ -184,5 +198,8 @@ right: 16px;
   li{
     font-size: 20px;
   }
-  
+  .aframebox{
+    height: 700px;
+    width: 600px;
+  }
 }
