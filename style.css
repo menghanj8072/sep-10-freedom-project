@@ -74,13 +74,12 @@ body{
 
 /*partA*/
 .partA {
-  background-color: lightgrey;
   margin-top: 50px;
   font-family: 'Comfortaa', cursive;
 }
 .hardware{
   margin-top: 20px;
-  background-color: grey;
+  background-color: #6a92d4;
   border: solid transparent;
   border-radius: 25px;
 }
@@ -91,7 +90,7 @@ body{
 
 /*partB*/
 .partB {
-  background-color: lightgrey;
+  background-color: #78aede;
   font-family: 'Comfortaa', cursive;
   border: solid transparent;
   border-radius: 50px;
