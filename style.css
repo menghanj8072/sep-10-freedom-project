@@ -49,7 +49,6 @@ body{
 }
 /*Context*/
 .context {
-  background-color: lightgrey;
   padding: 50px;
   font-family: 'Comfortaa', cursive;
   border: solid transparent;
@@ -60,6 +59,10 @@ body{
 .text-left-context {
   font-size: 20px;
 }
+  #img1 {
+    height: 500px;
+    width: 500px;
+  }
 
 /*context2*/
 .context2 {
@@ -117,6 +120,10 @@ right: 16px;*/
   height: 250px;
   width: 350px;
    }
+   #img1 {
+  height: 250px;
+  width: 350px;
+   }
    
    li{
     font-size: 10px;
@@ -138,6 +145,10 @@ right: 16px;*/
   height: 300px;
   width: 400px;
 }
+  #img1 {
+  height: 300px;
+  width: 400px;
+}  
 
   li{
     font-size: 10px;
@@ -153,6 +164,10 @@ right: 16px;*/
     font-size: 70px;
   }
    #img2 {
+  height: 300px;
+  width: 550px;
+  }
+  #img1 {
   height: 300px;
   width: 550px;
   }
@@ -176,6 +191,10 @@ right: 16px;*/
   height: 400px;
   width: 400px;
 }
+  #img1 {
+  height: 400px;
+  width: 400px;
+}
   li{
     font-size: 15px;
   }
@@ -195,6 +214,11 @@ right: 16px;*/
   height: 500px;
   width: 500px;
 }
+  #img1 {
+  height: 500px;
+  width: 500px;
+}
+
   li{
     font-size: 20px;
   }
@@ -203,3 +227,4 @@ right: 16px;*/
     width: 600px;
   }
 }
+  
